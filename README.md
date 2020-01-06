@@ -1,8 +1,5 @@
 # 
 <li>模板：https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/?download_theme=rapid.zip
-： 
-
-
 <li>期末專題主題簡介：這是想嘗試用老師教過的ＢＭＩ計算，去嘗試計算其他東西
 <li>使用者要怎麼使用你的網站：進入網站後把數字帶到公式的框框裡就可以計算了！
 <li>這次專題中做了什麼，使用了什麼技術：

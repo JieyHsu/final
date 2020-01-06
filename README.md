@@ -7,9 +7,9 @@
 <li>使用者要怎麼使用你的網站：進入網站後把公式帶進去
 <li>這次專題中做了什麼，使用了什麼技術：
   <ul><li>加入數學公式的顯示
-      <code><!--數學公式-->
+
     <script type="text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 
       <li>使用JS的計算  
       <li>在HTML頁裡加上TAG，同一頁裡可以點選選單到指定位置

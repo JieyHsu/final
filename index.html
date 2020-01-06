@@ -129,32 +129,34 @@
                         <div class="form-group row ">
                             <label for="example-number-input " class="col-2 col-form-label ">V1 (m/s)</label>
                             <div class="col-10 ">
-                                <input class="form-control " type="number " value="1 " id="v1 ">
+                                <input class="form-control " type="number " value="100 " id="v1">
                             </div>
                         </div>
                         <div class="form-group row ">
                             <label for="example-number-input " class="col-2 col-form-label ">V2 (m/s)</label>
                             <div class="col-10 ">
-                                <input class="form-control " type="number " value="1 " id="v2 ">
+                                <input class="form-control " type="number " value="1 " id="v2">
                             </div>
                         </div>
                         <div class="form-group row ">
                             <label for="example-number-input " class="col-2 col-form-label ">m1 (kg)</label>
                             <div class="col-10 ">
-                                <input class="form-control " type="number " value="1 " id="m1 ">
+                                <input class="form-control " type="number " value="1 " id="m1">
                             </div>
                         </div>
                         <div class="form-group row ">
                             <label for="example-number-input " class="col-2 col-form-label ">m2 (kg)</label>
                             <div class="col-10 ">
-                                <input class="form-control " type="number " value="1 " id="m2 ">
+                                <input class="form-control " type="number " value="1 " id="m2">
                             </div>
                         </div>
+
+                        <!-- 上面所有 input 元素的 id 全都多打一個空格，id 裡是不能含有空格的-->
 
                         <div class="form-group row ">
                             <label for="example-number-input " class="col-2 col-form-label ">求末速值</label>
                             <div class="col-10 ">
-                                <button1 type="button " class="btn btn-primary ">V1'</button1>
+                                <button id="button1" type="button " class="btn btn-primary ">V1'</button>
                                 <button2 type="button " class="btn btn-primary ">V2'</button2>
                             </div>
                         </div>
@@ -165,7 +167,8 @@
                         <div class="form-group row ">
                             <label for="example-number-input " class="col-2 col-form-label ">計算結果</label>
                             <div class="col-10 ">
-                                <input class="form-control " type="number " id="result ">
+                                <input class="form-control " type="number" id="result">
+                                <!-- result 多打一個空格 -->
                             </div>
                         </div>
                 </section>
@@ -198,25 +201,25 @@
                 <div class="form-group row ">
                     <label for="example-number-input " class="col-2 col-form-label ">M (g)</label>
                     <div class="col-10 ">
-                        <input class="form-control " type="number " value="2 " id="M ">
+                        <input class="form-control " type="number " value="2 " id="M">
                     </div>
                 </div>
                 <div class="form-group row ">
                     <label for="example-number-input " class="col-2 col-form-label ">S (卡/g ℃)</label>
                     <div class="col-10 ">
-                        <input class="form-control " type="number " value="30 " id="S ">
+                        <input class="form-control " type="number " value="30 " id="S">
                     </div>
                 </div>
                 <div class="form-group row ">
                     <label for="example-number-input " class="col-2 col-form-label ">T1</label>
                     <div class="col-10 ">
-                        <input class="form-control " type="number " value="40 " id="T1 ">
+                        <input class="form-control " type="number " value="40 " id="T1">
                     </div>
                 </div>
                 <div class="form-group row ">
                     <label for="example-number-input " class="col-2 col-form-label ">T2</label>
                     <div class="col-10 ">
-                        <input class="form-control " type="number " value="100 " id="T2 ">
+                        <input class="form-control " type="number " value="100 " id="T2">
                     </div>
                 </div>
 
@@ -234,7 +237,7 @@
                 <div class="form-group row ">
                     <label for="example-number-input " class="col-2 col-form-label ">計算結果</label>
                     <div class="col-10 ">
-                        <input class="form-control " type="number " id="result2 ">
+                        <input class="form-control " type="number " id="result2">
                     </div>
                 </div>
 
@@ -332,7 +335,7 @@
                 <div class="form-group row ">
                     <label for="example-number-input " class="col-2 col-form-label ">求值</label>
                     <div class="col-10 ">
-                        <button1 type="button " class="btn btn-primary ">軌道半徑</button1>
+                        <button type="button " class="btn btn-primary ">軌道半徑</button>
                         <button2 type="button " class="btn btn-primary ">向心力</button2>
                         <button3 type="button " class="btn btn-primary ">向心加速度</button3>
                         <button4 type="button " class="btn btn-primary ">軌道速度</button4>

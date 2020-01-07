@@ -7,6 +7,7 @@
     <li>模板：https://bootstrapmade.com/demo/Rapid/
     <li>使用JS的計算  
     <li>在HTML頁裡加上TAG，同一頁裡可以點選選單到指定位置
+    <li>雙星運動的公式還沒搞清楚，目前那一段是裝飾用的ＯＡＯ
     <li>加入數學公式的顯示
 
     <script type="text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>

@@ -7,7 +7,7 @@
     <li>模板：https://bootstrapmade.com/demo/Rapid/
     <li>使用JS的計算  
     <li>在HTML頁裡加上TAG，同一頁裡可以點選選單到指定位置
-    <li>雙星運動的公式還沒搞清楚，目前那一段是裝飾用的ＯＡＯ
+    <li>雙星運動的公式還沒搞清楚，目前那一段是裝飾用的ＯＡＯ，只剩下JS的部分沒有寫
     <li>加入數學公式的顯示
 
     <script type="text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
@@ -18,4 +18,9 @@
 <li><b>對評分有幫助的都可以在這邊寫上去</b>：
     <ul>  <ul>
   <li>有多做一頁可以隨機的抽籤：https://jieyhsu.github.io/final/luck
+   <ul> 
+     <li>可以輸入數字與文字
+     <li>當黃色亮起的時候就是有抽到的數字或顏色
+     <li>
+    </ul>
  </ul></ul>
